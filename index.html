@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo das Abelhas - Guardiãs da Vida</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navegação -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon"><i class="fa-solid fa-bee"></i></div>
+                <span>Bee<span class="text-amber">World</span></span>
+            </a>
+            <nav class="nav-links">
+                <a href="#inicio">Início</a>
+                <a href="#importancia">Importância</a>
+                <a href="#especies">Espécies</a>
+                <a href="#produtos">Produtos</a>
+                <a href="#calculadora">Impacto</a>
+                <a href="#quiz">Quiz</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <div class="hero-badge">
+                <i class="fa-solid fa-sparkles"></i> Descubra as Guardiãs do Planeta
+            </div>
+            <h1 class="hero-title">
+                Pequenas no Tamanho,<br>
+                <span class="text-gradient">Gigantes na Vida.</span>
+            </h1>
+            <p class="hero-description">
+                As abelhas são responsáveis pela polinização de mais de 75% dos alimentos do mundo. Explore a incrível matemática, organização social e o papel vital que elas desempenham em nossos ecossistemas.
+            </p>
+            <div class="hero-actions">
+                <a href="#importancia" class="btn btn-primary">
+                    <i class="fa-solid fa-compass"></i> Explorar Mundo
+                </a>
+                <a href="#quiz" class="btn btn-secondary">
+                    <i class="fa-solid fa-gamepad"></i> Testar Conhecimentos
+                </a>
+            </div>
+
+            <!-- Stats Bar -->
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">75%+</span>
+                    <span class="stat-label">das Culturas Alimentares Polinizadas</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">20.000+</span>
+                    <span class="stat-label">Espécies Conhecidas no Mundo</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">2.000</span>
+                    <span class="stat-label">Flores Visitadas por Dia/Abelha</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção: Importância -->
+    <section id="importancia" class="section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge">Sustentabilidade & Vida</span>
+                <h2 class="section-title">Por que as Abelhas são Vitais?</h2>
+                <p class="section-subtitle">Sem elas, a biodiversidade e a nossa mesa de jantar ficariam drasticamente reduzidas.</p>
+            </div>
+
+            <div class="cards-grid">
+                <div class="feature-card">
+                    <div class="card-icon"><i class="fa-solid fa-seedling"></i></div>
+                    <h3>Polinização Global</h3>
+                    <p>Ao buscar néctar, as abelhas transportam pólen de uma flor para outra, fertilizando plantas e permitindo a produção de frutos e sementes.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon"><i class="fa-solid fa-apple-whole"></i></div>
+                    <h3>Alimentação Humana</h3>
+                    <p>Frutas como maçãs, morangos, melancias e café dependem diretamente das abelhas para terem colheitas saudáveis e abundantes.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Biodiversidade</h3>
+                    <p>Elas sustentam ecossistemas inteiros. Animais e aves alimentam-se de frutos e plantas que só existem graças à polinização.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção: Espécies -->
+    <section id="especies" class="section section-dark">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge">Diversidade</span>
+                <h2 class="section-title">Espécies de Abelhas Famosas</h2>
+                <p class="section-subtitle">Conheça algumas das abelhas mais emblemáticas do ecossistema global e brasileiro.</p>
+            </div>
+
+            <div class="cards-grid">
+                <div class="species-card">
+                    <div class="species-header">
+                        <i class="fa-solid fa-crown"></i>
+                        <h3>Abelha-Européia</h3>
+                        <span class="scientific-name">Apis mellifera</span>
+                    </div>
+                    <p>A mais famosa e espalhada pelo planeta. Vive em grandes colônias com rígida divisão de tarefas e produz o mel comercial que conhecemos.</p>
+                    <ul class="species-tags">
+                        <li>Com Ferrão</li>
+                        <li>Grande Produtora</li>
+                    </ul>
+                </div>
+
+                <div class="species-card">
+                    <div class="species-header">
+                        <i class="fa-solid fa-leaf"></i>
+                        <h3>Jataí</h3>
+                        <span class="scientific-name">Tetragonisca angustula</span>
+                    </div>
+                    <p>Nativa do Brasil, é dócil e sem ferrão. Constrói entradas de cera em formato de tubo e produz um mel suave altamente medicinal.</p>
+                    <ul class="species-tags">
+                        <li>Sem Ferrão</li>
+                        <li>Nativa do Brasil</li>
+                    </ul>
+                </div>
+
+                <div class="species-card">
+                    <div class="species-header">
+                        <i class="fa-solid fa-sun"></i>
+                        <h3>Mamangava</h3>
+                        <span class="scientific-name">Bombus spp.</span>
+                    </div>
+                    <p>Grandes e peludas, são polinizadoras excepcionais conhecidas como "bumblebees". Muito eficientes na polinização do tomate e do maracujá.</p>
+                    <ul class="species-tags">
+                        <li>Robusta</li>
+                        <li>Polinização por Vibração</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção: Produtos -->
+    <section id="produtos" class="section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge">Tesouros da Colméia</span>
+                <h2 class="section-title">O que a Colméia nos Dá?</h2>
+                <p class="section-subtitle">Aprenda sobre os superalimentos e matérias-primas incríveis produzidas por elas.</p>
+            </div>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="todos">Todos</button>
+                <button class="filter-btn" data-filter="alimenticio">Alimentícios</button>
+                <button class="filter-btn" data-filter="medicinal">Medicinais</button>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card" data-category="alimenticio">
+                    <div class="product-icon"><i class="fa-solid fa-jar"></i></div>
+                    <h3>Mel Natural</h3>
+                    <p>O único alimento produzido por insetos consumido pelo homem. Nunca estraga se armazenado corretamente.</p>
+                </div>
+                <div class="product-card" data-category="medicinal">
+                    <div class="product-icon"><i class="fa-solid fa-shield-virus"></i></div>
+                    <h3>Própolis</h3>
+                    <p>A "resina protetora" da colméia. Tem potentes propriedades antibacterianas e fortalecedoras do sistema imune.</p>
+                </div>
+                <div class="product-card" data-category="medicinal">
+                    <div class="product-icon"><i class="fa-solid fa-crown"></i></div>
+                    <h3>Geleia Real</h3>
+                    <p>Alimento exclusivo da Abelha Rainha. Rica em vitaminas, proteínas e aminoácidos essenciais.</p>
+                </div>
+                <div class="product-card" data-category="alimenticio">
+                    <div class="product-icon"><i class="fa-solid fa-wheat-awn"></i></div>
+                    <h3>Pólen Apícola</h3>
+                    <p>Superalimento rico em proteínas vegetais, enzimas e vitaminas que as abelhas coletam das flores.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Interativa: Calculadora de Impacto -->
+    <section id="calculadora" class="section section-dark">
+        <div class="container">
+            <div class="calc-box">
+                <div class="calc-header text-center">
+                    <span class="section-badge"><i class="fa-solid fa-calculator"></i> Simulação</span>
+                    <h2>Calculadora de Impacto Ecológico</h2>
+                    <p>Quantas flores uma colmeia poliniza em um ano? Ajuste a quantidade de colmeias abaixo!</p>
+                </div>
+
+                <div class="calc-controls">
+                    <label for="hivesInput">Número de Colmeias: <span id="hiveValue" class="text-amber">5</span></label>
+                    <input type="range" id="hivesInput" min="1" max="50" value="5" class="slider">
+                </div>
+
+                <div class="calc-results">
+                    <div class="result-card">
+                        <i class="fa-solid fa-florian-cross"></i>
+                        <h4 id="flowersCount">250M</h4>
+                        <p>Flores Polinizadas/Ano</p>
+                    </div>
+                    <div class="result-card">
+                        <i class="fa-solid fa-plane-fly"></i>
+                        <h4 id="flightsCount">10.000k</h4>
+                        <p>Viagens de Coleta</p>
+                    </div>
+                    <div class="result-card">
+                        <i class="fa-solid fa-jar-wheat"></i>
+                        <h4 id="honeyCount">100 kg</h4>
+                        <p>Mel Produzido/Ano</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Interativa: Quiz -->
+    <section id="quiz" class="section">
+        <div class="container">
+            <div class="quiz-container">
+                <div class="quiz-header text-center">
+                    <span class="section-badge"><i class="fa-solid fa-brain"></i> Desafio</span>
+                    <h2>Quiz: Você conhece as Abelhas?</h2>
+                    <p>Responda às perguntas e veja se você é um verdadeiro Mestre Apícola!</p>
+                </div>
+
+                <div id="quizBox">
+                    <div class="quiz-progress">
+                        <span id="questionNum">Pergunta 1 de 3</span>
+                    </div>
+
+                    <h3 id="questionText" class="quiz-question">Carregando pergunta...</h3>
+
+                    <div id="optionsContainer" class="options-container">
+                        <!-- Opções geradas via JS -->
+                    </div>
+
+                    <div id="feedback" class="quiz-feedback hidden"></div>
+
+                    <button id="nextBtn" class="btn btn-primary btn-block hidden">Próxima Pergunta</button>
+                </div>
+
+                <div id="quizResult" class="quiz-result hidden text-center">
+                    <i class="fa-solid fa-trophy result-icon"></i>
+                    <h3>Quiz Concluído!</h3>
+                    <p id="resultScore" class="score-text"></p>
+                    <button id="restartBtn" class="btn btn-primary"><i class="fa-solid fa-rotate-right"></i> Tentar Novamente</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <div class="logo-icon"><i class="fa-solid fa-bee"></i></div>
+                    <span>Bee<span class="text-amber">World</span></span>
+                </a>
+                <p>Promovendo a conscientização e preservação das nossas polinizadoras fundamentais.</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 BeeWorld. Projeto desenvolvido em HTML, CSS e JavaScript para o GitHub.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Arquivo JS -->
+    <script src="script.js"></script>
+</body>
+</html>
